@@ -1,0 +1,33 @@
+{
+  "vendor_name": "BlueOak IT Services Pvt Ltd",
+  "vendor_gstin": "27AABCB2468H1ZQ",
+  "buyer_name": "Kestrel Foods Pvt Ltd",
+  "buyer_gstin": "29AAKCK4521M1Z3",
+  "invoice_number": "INV1042-A",
+  "invoice_date": "2026-10-14",
+  "due_date": "2026-11-13",
+  "po_reference": "PO-2026-0129",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Laptop repair & annual maintenance contract (40 units)",
+      "quantity": 40,
+      "unit_price": 2400,
+      "amount": 96000
+    }
+  ],
+  "subtotal": 96000,
+  "tax_treatment": "separate",
+  "tax_lines": [
+    {
+      "label": "IGST @ 18%",
+      "amount": 17280.0
+    }
+  ],
+  "tax_rate_percent": 18,
+  "total": 113280.0,
+  "bank_account": "917020045678123",
+  "ifsc": "UTIB0000917",
+  "bank_name": "Axis Bank",
+  "notes": null
+}

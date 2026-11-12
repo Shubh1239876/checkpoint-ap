@@ -1,0 +1,213 @@
+[
+  {
+    "po_number": "PO-2026-0129",
+    "vendor_id": "V003",
+    "po_date": "2026-09-08",
+    "lines": [
+      {
+        "description": "Laptop repair & annual maintenance contract (40 units)",
+        "qty": 40,
+        "unit_price": 2400,
+        "uom": "unit",
+        "amount": 96000
+      }
+    ],
+    "subtotal": 96000,
+    "tax_rate": 18,
+    "total": 113280.0,
+    "status": "Closed",
+    "note": ""
+  },
+  {
+    "po_number": "PO-2026-0133",
+    "vendor_id": "V008",
+    "po_date": "2026-01-05",
+    "lines": [
+      {
+        "description": "Managed cloud hosting - monthly retainer (Jan-Dec 2026)",
+        "qty": 12,
+        "unit_price": 50000,
+        "uom": "month",
+        "amount": 600000
+      }
+    ],
+    "subtotal": 600000,
+    "tax_rate": 18,
+    "total": 708000.0,
+    "status": "Open",
+    "note": ""
+  },
+  {
+    "po_number": "PO-2026-0139",
+    "vendor_id": "V004",
+    "po_date": "2026-09-15",
+    "lines": [
+      {
+        "description": "Organic compost fertiliser, 50 kg bags",
+        "qty": 1000,
+        "unit_price": 150,
+        "uom": "bag",
+        "amount": 150000
+      }
+    ],
+    "subtotal": 150000,
+    "tax_rate": 5,
+    "total": 157500.0,
+    "status": "Open",
+    "note": ""
+  },
+  {
+    "po_number": "PO-2026-0144",
+    "vendor_id": "V003",
+    "po_date": "2026-09-22",
+    "lines": [
+      {
+        "description": "Microsoft 365 Business Standard licence - annual",
+        "qty": 120,
+        "unit_price": 1500,
+        "uom": "licence",
+        "amount": 180000
+      },
+      {
+        "description": "IT helpdesk support - Q4 2026",
+        "qty": 1,
+        "unit_price": 60000,
+        "uom": "quarter",
+        "amount": 60000
+      }
+    ],
+    "subtotal": 240000,
+    "tax_rate": 18,
+    "total": 283200.0,
+    "status": "Open",
+    "note": ""
+  },
+  {
+    "po_number": "PO-2026-0150",
+    "vendor_id": "V005",
+    "po_date": "2026-08-05",
+    "lines": [
+      {
+        "description": "Printed product labels 50 x 80 mm, 4-colour",
+        "qty": 400000,
+        "unit_price": 1.0,
+        "uom": "label",
+        "amount": 400000.0
+      }
+    ],
+    "subtotal": 400000.0,
+    "tax_rate": 18,
+    "total": 472000.0,
+    "status": "Open",
+    "note": "Billed in instalments as labels are delivered"
+  },
+  {
+    "po_number": "PO-2026-0155",
+    "vendor_id": "V007",
+    "po_date": "2026-09-01",
+    "lines": [
+      {
+        "description": "Reefer cold storage - September 2026 (pallet-days)",
+        "qty": 900,
+        "unit_price": 95,
+        "uom": "pallet-day",
+        "amount": 85500
+      }
+    ],
+    "subtotal": 85500,
+    "tax_rate": 18,
+    "total": 100890.0,
+    "status": "Open",
+    "note": ""
+  },
+  {
+    "po_number": "PO-2026-0158",
+    "vendor_id": "V001",
+    "po_date": "2026-10-01",
+    "lines": [
+      {
+        "description": "Corrugated shipping cartons, 5-ply, 18 x 12 x 12 in",
+        "qty": 8000,
+        "unit_price": 42.5,
+        "uom": "carton",
+        "amount": 340000.0
+      },
+      {
+        "description": "BOPP packing tape 48 mm x 65 m",
+        "qty": 1200,
+        "unit_price": 55,
+        "uom": "roll",
+        "amount": 66000
+      }
+    ],
+    "subtotal": 406000.0,
+    "tax_rate": 18,
+    "total": 479080.0,
+    "status": "Open",
+    "note": ""
+  },
+  {
+    "po_number": "PO-2026-0160",
+    "vendor_id": "V006",
+    "po_date": "2026-10-06",
+    "lines": [
+      {
+        "description": "A4 copier paper 75 gsm (ream of 500)",
+        "qty": 400,
+        "unit_price": 260,
+        "uom": "ream",
+        "amount": 104000
+      },
+      {
+        "description": "Whiteboard markers, box of 10",
+        "qty": 50,
+        "unit_price": 350,
+        "uom": "box",
+        "amount": 17500
+      }
+    ],
+    "subtotal": 121500,
+    "tax_rate": 18,
+    "total": 143370.0,
+    "status": "Open",
+    "note": ""
+  },
+  {
+    "po_number": "PO-2026-0162",
+    "vendor_id": "V002",
+    "po_date": "2026-10-01",
+    "lines": [
+      {
+        "description": "Road freight - Bengaluru to Chennai DC, October 2026",
+        "qty": 12,
+        "unit_price": 7000,
+        "uom": "trip",
+        "amount": 84000
+      }
+    ],
+    "subtotal": 84000,
+    "tax_rate": 18,
+    "total": 99120.0,
+    "status": "Open",
+    "note": ""
+  },
+  {
+    "po_number": "PO-2026-0171",
+    "vendor_id": "V002",
+    "po_date": "2026-10-01",
+    "lines": [
+      {
+        "description": "Road freight - Bengaluru to Hyderabad DC, October 2026",
+        "qty": 12,
+        "unit_price": 7000,
+        "uom": "trip",
+        "amount": 84000
+      }
+    ],
+    "subtotal": 84000,
+    "tax_rate": 18,
+    "total": 99120.0,
+    "status": "Open",
+    "note": ""
+  }
+]

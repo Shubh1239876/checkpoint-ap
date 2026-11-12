@@ -1,0 +1,43 @@
+{
+  "vendor_name": "Metro Office Essentials",
+  "vendor_gstin": "29ABCPM9753Q1ZO",
+  "buyer_name": "Kestrel Foods Pvt Ltd",
+  "buyer_gstin": "29AAKCK4521M1Z3",
+  "invoice_number": null,
+  "invoice_date": "2026-11-07",
+  "due_date": "2026-12-07",
+  "po_reference": "PO-2026-0160",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "A4 copier paper 75 gsm (ream of 500)",
+      "quantity": 400,
+      "unit_price": 260,
+      "amount": 104000
+    },
+    {
+      "description": "Whiteboard markers, box of 10",
+      "quantity": 50,
+      "unit_price": 350,
+      "amount": 17500
+    }
+  ],
+  "subtotal": 125100,
+  "tax_treatment": "separate",
+  "tax_lines": [
+    {
+      "label": "CGST @ 9%",
+      "amount": 11259.0
+    },
+    {
+      "label": "SGST @ 9%",
+      "amount": 11259.0
+    }
+  ],
+  "tax_rate_percent": 18,
+  "total": 147618.0,
+  "bank_account": "2716101004567",
+  "ifsc": "CNRB0002716",
+  "bank_name": "Canara Bank",
+  "notes": null
+}

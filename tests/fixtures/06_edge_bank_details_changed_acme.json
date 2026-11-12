@@ -1,0 +1,43 @@
+{
+  "vendor_name": "Acme Packaging Pvt Ltd",
+  "vendor_gstin": "29AAECA1234F1Z2",
+  "buyer_name": "Kestrel Foods Pvt Ltd",
+  "buyer_gstin": "29AAKCK4521M1Z3",
+  "invoice_number": "ACME/2026/0871",
+  "invoice_date": "2026-11-06",
+  "due_date": "2026-12-06",
+  "po_reference": "PO-2026-0158",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Corrugated shipping cartons, 5-ply, 18 x 12 x 12 in",
+      "quantity": 8000,
+      "unit_price": 42.5,
+      "amount": 340000.0
+    },
+    {
+      "description": "BOPP packing tape 48 mm x 65 m",
+      "quantity": 1200,
+      "unit_price": 55,
+      "amount": 66000
+    }
+  ],
+  "subtotal": 406000.0,
+  "tax_treatment": "separate",
+  "tax_lines": [
+    {
+      "label": "CGST @ 9%",
+      "amount": 36540.0
+    },
+    {
+      "label": "SGST @ 9%",
+      "amount": 36540.0
+    }
+  ],
+  "tax_rate_percent": 18,
+  "total": 479080.0,
+  "bank_account": "50100998877665",
+  "ifsc": "HDFC0009911",
+  "bank_name": "HDFC Bank",
+  "notes": "Kindly note our UPDATED bank details below for this and all future payments."
+}

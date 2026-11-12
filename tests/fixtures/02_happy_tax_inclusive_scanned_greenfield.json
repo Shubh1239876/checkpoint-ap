@@ -1,0 +1,28 @@
+{
+  "vendor_name": "Greenfield Agro Supplies",
+  "vendor_gstin": "29AAJFG1357D1ZH",
+  "buyer_name": "Kestrel Foods Pvt Ltd",
+  "buyer_gstin": "29AAKCK4521M1Z3",
+  "invoice_number": "GAS/1123",
+  "invoice_date": "2026-11-02",
+  "due_date": "2026-12-02",
+  "po_reference": "P.O. No. 2026/0139",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Organic compost fertiliser 50kg bag",
+      "quantity": 1000,
+      "unit_price": 157.5,
+      "amount": 157500.0
+    }
+  ],
+  "subtotal": null,
+  "tax_treatment": "inclusive",
+  "tax_lines": [],
+  "tax_rate_percent": 5,
+  "total": 157500.0,
+  "bank_account": "38912345670",
+  "ifsc": "SBIN0040123",
+  "bank_name": "State Bank of India",
+  "notes": "All prices are inclusive of GST @ 5% (CGST 2.5% + SGST 2.5%)."
+}

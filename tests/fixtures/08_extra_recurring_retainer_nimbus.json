@@ -1,0 +1,33 @@
+{
+  "vendor_name": "Nimbus Cloud Solutions Pvt Ltd",
+  "vendor_gstin": "36AAGCN2718S1ZU",
+  "buyer_name": "Kestrel Foods Pvt Ltd",
+  "buyer_gstin": "29AAKCK4521M1Z3",
+  "invoice_number": "NC-2026-011",
+  "invoice_date": "2026-11-01",
+  "due_date": "2026-12-01",
+  "po_reference": "PO-2026-0133",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Managed cloud hosting - monthly retainer, November 2026",
+      "quantity": 1,
+      "unit_price": 50000,
+      "amount": 50000
+    }
+  ],
+  "subtotal": 50000,
+  "tax_treatment": "separate",
+  "tax_lines": [
+    {
+      "label": "IGST @ 18%",
+      "amount": 9000.0
+    }
+  ],
+  "tax_rate_percent": 18,
+  "total": 59000.0,
+  "bank_account": "50200098765432",
+  "ifsc": "HDFC0000789",
+  "bank_name": "HDFC Bank",
+  "notes": null
+}

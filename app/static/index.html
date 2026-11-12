@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Checkpoint · AP invoice review</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#/">
+      <span class="logo" aria-hidden="true">✓</span>
+      <span><b>Checkpoint</b><small>AP invoice review · Kestrel Foods</small></span>
+    </a>
+    <nav>
+      <a href="#/" data-nav="new">New run</a>
+      <a href="#/dashboard" data-nav="dashboard">Dashboard</a>
+      <a href="#/review" data-nav="review">Review queue <span id="reviewBadge" class="badge" hidden></span></a>
+      <a href="#/reference" data-nav="reference">Reference data</a>
+      <a href="#/rules" data-nav="rules">Rules &amp; assumptions</a>
+    </nav>
+    <span id="health" class="health" title="AI connection"></span>
+  </header>
+  <main id="view"></main>
+  <div id="toast" class="toast" hidden></div>
+  <script src="/app.js"></script>
+</body>
+</html>

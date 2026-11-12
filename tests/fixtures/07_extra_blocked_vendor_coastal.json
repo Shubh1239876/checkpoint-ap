@@ -1,0 +1,37 @@
+{
+  "vendor_name": "Coastal Cold Chain Pvt Ltd",
+  "vendor_gstin": "29AAHCC3141R1Z6",
+  "buyer_name": "Kestrel Foods Pvt Ltd",
+  "buyer_gstin": "29AAKCK4521M1Z3",
+  "invoice_number": "CCC-24518",
+  "invoice_date": "2026-10-30",
+  "due_date": "2026-11-29",
+  "po_reference": "PO-2026-0155",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Reefer cold storage - September 2026 (pallet-days)",
+      "quantity": 900,
+      "unit_price": 95,
+      "amount": 85500
+    }
+  ],
+  "subtotal": 85500,
+  "tax_treatment": "separate",
+  "tax_lines": [
+    {
+      "label": "CGST @ 9%",
+      "amount": 7695.0
+    },
+    {
+      "label": "SGST @ 9%",
+      "amount": 7695.0
+    }
+  ],
+  "tax_rate_percent": 18,
+  "total": 100890.0,
+  "bank_account": "2492000100078901",
+  "ifsc": "KARB0000249",
+  "bank_name": "Karnataka Bank",
+  "notes": null
+}

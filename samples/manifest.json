@@ -1,0 +1,56 @@
+[
+  {
+    "file": "01_happy_path_blueoak.pdf",
+    "scenario": "Clean digital invoice, explicit PO, exact match",
+    "expected": "APPROVE",
+    "scanned": false
+  },
+  {
+    "file": "02_happy_tax_inclusive_scanned_greenfield.pdf",
+    "scenario": "Scanned invoice, tax embedded in prices, PO ref written differently",
+    "expected": "APPROVE",
+    "scanned": true
+  },
+  {
+    "file": "03_edge_split_po_overrun_precision.pdf",
+    "scenario": "3rd instalment on a PO; fine alone, overruns PO cumulatively",
+    "expected": "HOLD",
+    "scanned": false
+  },
+  {
+    "file": "04_edge_disguised_duplicate_scanned_blueoak.pdf",
+    "scenario": "Scanned re-send of paid INV-1042 with a suffixed number",
+    "expected": "HOLD",
+    "scanned": true
+  },
+  {
+    "file": "05_edge_no_po_two_candidates_sunrise.pdf",
+    "scenario": "No PO reference; vendor has two equally plausible open POs",
+    "expected": "HOLD",
+    "scanned": false
+  },
+  {
+    "file": "06_edge_bank_details_changed_acme.pdf",
+    "scenario": "Everything matches except payee bank account",
+    "expected": "HOLD",
+    "scanned": false
+  },
+  {
+    "file": "07_extra_blocked_vendor_coastal.pdf",
+    "scenario": "Vendor is blocked in the vendor master",
+    "expected": "REJECT",
+    "scanned": false
+  },
+  {
+    "file": "08_extra_recurring_retainer_nimbus.pdf",
+    "scenario": "Same amount as last month's paid invoice - must NOT be flagged duplicate",
+    "expected": "APPROVE",
+    "scanned": false
+  },
+  {
+    "file": "09_extra_math_error_no_number_metro.pdf",
+    "scenario": "Lines don't add up to stated subtotal; no invoice number",
+    "expected": "HOLD",
+    "scanned": false
+  }
+]

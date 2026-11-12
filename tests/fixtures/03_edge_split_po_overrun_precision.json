@@ -1,0 +1,33 @@
+{
+  "vendor_name": "Precision Labels & Print Co",
+  "vendor_gstin": "33AAKFP8642L1ZR",
+  "buyer_name": "Kestrel Foods Pvt Ltd",
+  "buyer_gstin": "29AAKCK4521M1Z3",
+  "invoice_number": "PL/26-27/0457",
+  "invoice_date": "2026-11-04",
+  "due_date": "2026-12-04",
+  "po_reference": "PO-2026-0150",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Printed product labels 50 x 80 mm, 4-colour",
+      "quantity": 150000,
+      "unit_price": 1.0,
+      "amount": 150000.0
+    }
+  ],
+  "subtotal": 150000.0,
+  "tax_treatment": "separate",
+  "tax_lines": [
+    {
+      "label": "IGST @ 18%",
+      "amount": 27000.0
+    }
+  ],
+  "tax_rate_percent": 18,
+  "total": 177000.0,
+  "bank_account": "4512789034",
+  "ifsc": "KKBK0000451",
+  "bank_name": "Kotak Mahindra Bank",
+  "notes": null
+}

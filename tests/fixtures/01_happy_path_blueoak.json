@@ -1,0 +1,39 @@
+{
+  "vendor_name": "BlueOak IT Services Pvt Ltd",
+  "vendor_gstin": "27AABCB2468H1ZQ",
+  "buyer_name": "Kestrel Foods Pvt Ltd",
+  "buyer_gstin": "29AAKCK4521M1Z3",
+  "invoice_number": "INV-1057",
+  "invoice_date": "2026-11-03",
+  "due_date": "2026-12-03",
+  "po_reference": "PO-2026-0144",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Microsoft 365 Business Standard licence - annual",
+      "quantity": 120,
+      "unit_price": 1500,
+      "amount": 180000
+    },
+    {
+      "description": "IT helpdesk support - Q4 2026",
+      "quantity": 1,
+      "unit_price": 60000,
+      "amount": 60000
+    }
+  ],
+  "subtotal": 240000,
+  "tax_treatment": "separate",
+  "tax_lines": [
+    {
+      "label": "IGST @ 18%",
+      "amount": 43200.0
+    }
+  ],
+  "tax_rate_percent": 18,
+  "total": 283200.0,
+  "bank_account": "917020045678123",
+  "ifsc": "UTIB0000917",
+  "bank_name": "Axis Bank",
+  "notes": null
+}

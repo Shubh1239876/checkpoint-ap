@@ -1,0 +1,33 @@
+{
+  "vendor_name": "Sunrise Logistics LLP",
+  "vendor_gstin": "33AAFFS5678K1ZP",
+  "buyer_name": "Kestrel Foods Pvt Ltd",
+  "buyer_gstin": "29AAKCK4521M1Z3",
+  "invoice_number": "SLL/2026/1189",
+  "invoice_date": "2026-11-05",
+  "due_date": "2026-12-05",
+  "po_reference": null,
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Road freight charges - October 2026",
+      "quantity": 12,
+      "unit_price": 7000,
+      "amount": 84000
+    }
+  ],
+  "subtotal": 84000,
+  "tax_treatment": "separate",
+  "tax_lines": [
+    {
+      "label": "IGST @ 18%",
+      "amount": 15120.0
+    }
+  ],
+  "tax_rate_percent": 18,
+  "total": 99120.0,
+  "bank_account": "000405012345",
+  "ifsc": "ICIC0000004",
+  "bank_name": "ICICI Bank",
+  "notes": null
+}
